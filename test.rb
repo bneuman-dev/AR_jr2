@@ -1,13 +1,26 @@
 require_relative 'app'
 
+a = Cohort.create(name: "sack")
+puts a
+# b = Cohort.find(14)
+# puts b
 
-# cohort = Cohort.new(name: "Foobarf")
-# cohort.save
+# c = Cohort.where('name = ?', 'flack').first
+# puts c
 
-foo = Cohort.where("name = ?", "Foobarf").first
+# c[:name] = 'wack'
+# c.save
+# puts c
 
-p foo[:name]
-foo[:name] = "Floof"
-p foo[:name]
+puts Cohort.all
+
+
+ 
+
+
+
+
+
+# p Cohort.all
 #p f_cohort[:name] == "Boofar"
 
