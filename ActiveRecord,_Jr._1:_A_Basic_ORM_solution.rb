@@ -1,0 +1,1 @@
+# Solution for Challenge: ActiveRecord, Jr. 1: A Basic ORM. Started 2014-01-22T16:29:54+00:00
